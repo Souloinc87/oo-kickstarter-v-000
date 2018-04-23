@@ -10,7 +10,7 @@ class Backer
   def back_project(project)
     @backed_projects << project
     project = Project.new(project)
-    @backers << project 
+    @backers << Project.new 
 
     binding.pry
 
